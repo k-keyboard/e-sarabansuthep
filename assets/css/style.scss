@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+@font-face {
+  font-family: Noto Sans Thai Condensed Bold;
+  src: url('~/assets/fonts/NotoSansThai-CondensedBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: Noto Sans Thai Condensed Light;
+  src: url('~/assets/fonts/NotoSansThai-CondensedLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: Noto Sans Thai Condensed;
+  src: url('~/assets/fonts/NotoSansThai-Condensed.ttf') format('truetype');
+}
+.mb-32 {
+    margin-bottom: 32px;
+}

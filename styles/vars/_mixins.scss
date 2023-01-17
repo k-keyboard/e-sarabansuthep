@@ -1,0 +1,11 @@
+@mixin boxShadow($alpha: 10, $expand: 4px) {
+    box-shadow: 0px 0px $expand 0px rgba(0, 0, 0, $alpha/ 100);
+}
+
+@mixin textBlackColor($alpha: 85) {
+    color: rgba(0, 0, 0, $alpha/ 100);
+}
+
+@mixin textWhiteColor($alpha) {
+    color: rgba(255, 255, 255, $alpha/ 100);
+}

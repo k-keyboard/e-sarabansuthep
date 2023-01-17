@@ -1,0 +1,168 @@
+@import '@/styles/fonts.scss';
+@import '@/styles/custom.scss';
+
+html {
+    height: unset;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem !important;
+    -webkit-font-smoothing: antialiased;
+    body {
+        font-family: 'Sarabun' !important;
+        font-size: 1rem !important;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        #__nuxt {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            #__layout {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+* {
+    touch-action: manipulation;
+}
+/* page transition */
+.page-enter-active, .page-leave-active {
+    transition: all .3s ease;
+}
+.page-enter {
+    transform: translateY(30px);
+    opacity: 0;
+}
+.page-leave-to {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.layout-enter-active, .layout-leave-active {
+    transition: all .3s ease;
+}
+.layout-enter {
+    transform: translateY(30px);
+    opacity: 0;
+}
+.layout-leave-to {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.slideUp-active, .slideUp-leave-active {
+    transition: all .3s ease;
+}
+.slideUp-enter {
+    transform: translateY(30px);
+    opacity: 0;
+}
+.slideUp-leave-to {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.slideLeftAb-enter-active, .slideLeftAb-leave-active {
+    transition: all .3s ease-out;
+}
+.slideLeftAb-enter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(30px);
+    opacity: 0;
+}
+.slideLeftAb-leave-to {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+.slideRightAb-enter-active, .slideRightAb-leave-active {
+    transition: all .3s ease-out;
+}
+.slideRightAb-enter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-30px);
+    opacity: 0;
+}
+.slideRightAb-leave-to {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.slideUpAb-enter-active, .slideUptAb-leave-active {
+    transition: all .3s ease-out;
+}
+.slideUpAb-enter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(30px);
+    opacity: 0;
+}
+.slideUpAb-leave-to {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.slideUp-enter-active, .slideUp-leave-active {
+    transition: all .3s ease;
+}
+.slideUp-enter {
+    transform: translateY(30px);
+    opacity: 0;
+}
+.slideUp-leave-to {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.slideRightShortAb-enter-active, .slideRightShortAb-leave-active {
+    transition: all .3s ease-out;
+}
+.slideRightShortAb-enter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-10px);
+    opacity: 0;
+}
+.slideRightShortAb-leave-to {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(10px);
+    opacity: 0;
+}
